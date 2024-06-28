@@ -1,0 +1,80 @@
+@import url(modern-normalize.css);
+
+.container {
+    height: 100vh;
+    display: flex;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+.image-div{
+    width: 35vw;
+    background-color: red;
+}
+.form-div {
+    width: 65vw;
+  
+    background-color: #ffffffe6;
+}
+.form {
+    padding: 15px 35px;
+    background-color: white;
+    height: 33vh;
+
+    box-shadow: 8px 10px 4px -3px rgba(0,0,0,0.75);
+     border: 1px solid #E5E7EB;
+}
+.form-container {
+display: flex;
+height: 33vh;
+gap :50px;
+}
+.text{
+    padding-left: 35px;
+    padding-top: 80px;
+    margin: 0;
+    display: inline-block;
+    height: 33vh;
+
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.legend {
+    font-size: 20px;
+    font-weight: 400;
+    display: inline;
+    margin-bottom: 10px;
+}
+.footer {
+    height: 33vh;
+    width: 65vw;
+    padding: 25px 35px;
+}
+.button {
+    padding: 10px 35px;
+    background-color: #596D48;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+input {
+    border: 1px solid #E5E7EB;
+    margin-bottom: 5px;
+    
+}
+.input:focus {
+    border: 1 px solid blue;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+label {
+    font-size: 8px;
+}
+a{
+    color: rgb(0, 108, 0);
+}
+.password:invalid{
+border: 1px solid red;
+ box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
